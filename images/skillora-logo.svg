@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" fill="none">
+  <defs>
+    <linearGradient id="blueGrad" x1="120" y1="70" x2="300" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2B8CFF"/>
+      <stop offset="1" stop-color="#102A72"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="240" y1="70" x2="365" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFB11B"/>
+      <stop offset="1" stop-color="#F36B10"/>
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0B1F55" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="420" fill="#ffffff"/>
+
+  <!-- Icon group -->
+  <g transform="translate(70 45)" filter="url(#softShadow)">
+    <!-- Book body -->
+    <path d="M120 120C171 118 217 129 262 152V286C218 266 173 255 120 256V120Z" fill="url(#blueGrad)"/>
+    <path d="M262 152C304 131 346 120 396 120V256C347 255 304 266 262 286V152Z" fill="url(#orangeGrad)"/>
+
+    <!-- Book outline -->
+    <path d="M105 112V273C160 271 213 280 262 306C311 280 364 271 419 273V112" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+    <path d="M107 112V284C159 282 211 290 262 316C313 290 365 282 417 284V112" stroke="#16306B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+
+    <!-- Center fold -->
+    <path d="M262 120V316" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+
+    <!-- Arrow -->
+    <path d="M190 188C236 197 272 180 315 138L298 126C335 117 362 93 382 62C387 104 384 140 376 172L358 159C314 210 270 234 207 225L190 188Z" fill="url(#orangeGrad)"/>
+    <path d="M201 191C244 198 277 182 318 144" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.92"/>
+
+    <!-- Letter S -->
+    <path d="M239.7 238.4C221.2 238.4 204.7 235.2 190.2 228.8C175.7 222.1 163.8 213.6 154.6 203.2L176.7 161.8C186.5 170.5 197.3 177.3 209.1 182.2C221 186.8 232.4 189.1 243.5 189.1C252.4 189.1 258.9 187.8 263 185.1C267.1 182.1 269.2 178.1 269.2 173.1C269.2 169.1 267.8 165.8 265 163.2C262.3 160.6 258.2 158.4 252.7 156.7C247.2 155 239.9 153.1 230.8 151.1C217.5 148.2 206.6 145 198.3 141.5C190 137.8 182.9 132.2 177 124.7C171.3 117.1 168.5 106.9 168.5 94.1C168.5 81.8 171.7 71 178.2 61.7C184.9 52.1 194.4 44.7 206.8 39.6C219.3 34.2 234 31.5 250.9 31.5C264.8 31.5 278.7 33.5 292.5 37.4C306.4 41.1 318.6 46.4 329.2 53.1L308.4 95.2C298.3 89.3 288.1 84.8 277.8 81.9C267.8 78.7 258.7 77.1 250.5 77.1C242.1 77.1 236 78.5 232.3 81.4C228.5 84.1 226.7 87.5 226.7 91.7C226.7 96 228.9 99.3 233.2 101.7C237.5 104.2 245.4 107 256.8 110.2C270 113.1 280.8 116.5 289.3 120.3C298.1 123.8 305.4 129.4 311.4 137C317.3 144.3 320.2 154.1 320.2 166.4C320.2 178.5 316.8 189.4 310.1 199.1C303.6 208.4 294.1 215.8 281.6 221.3C269.1 235.9 255.2 238.4 239.7 238.4Z" fill="#ffffff"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(470 0)">
+    <text x="0" y="260" font-family="Montserrat, Poppins, Inter, Arial, sans-serif" font-size="150" font-weight="800" fill="#0E2868" letter-spacing="-3">Skillora</text>
+  </g>
+</svg>

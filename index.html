@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skillora | Learn Programming</title>
+
+    <link rel="icon" type="image/svg+xml" href="skillora-logo.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav class="site-header">
+      <div class="wrapper site-header__inner">
+        <a href="index.html" class="site-header__brand">
+          <img src="skillora-logo.svg" alt="Skillora Logo" />
+        </a>
+
+        <div class="site-header__menu">
+          <ul class="site-header__links">
+            <li><a href="index.html">Home</a></li>
+
+            <li class="nav-dropdown">
+              <a href="#languages">Languages <i class="fas fa-chevron-down"></i></a>
+              <ul class="nav-dropdown__menu">
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+                <li><a href="#react">React</a></li>
+                <li><a href="#python">Python</a></li>
+                <li><a href="#nodejs">Node.js</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="frontend-track.html">Frontend Track</a></li>
+            <li><a href="#code-examples">Code</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="mobile-nav">
+          <button class="mobile-nav__toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="mobile-nav__panel">
+            <ul class="mobile-nav__links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#languages">Languages</a></li>
+              <li><a href="#roadmap">Roadmap</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="frontend-track.html">Frontend Track</a></li>
+              <li><a href="#code-examples">Code</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero-section" id="hero-banner">
+      <div class="wrapper hero-section__layout">
+        <div class="hero-section__content">
+          <span class="hero-section__badge">Learn Modern Programming</span>
+          <h1>Start Your Coding Journey From Zero To Real Projects</h1>
+          <p>
+            Learn HTML, CSS, JavaScript, React, Python, and Node.js with clear
+            roadmaps, real examples, and structured courses made for beginners.
+          </p>
+
+          <div class="hero-section__actions">
+            <a href="courses.html" class="primary-btn">Browse Courses</a>
+            <a href="#roadmap" class="secondary-btn">See Roadmap</a>
+          </div>
+        </div>
+
+        <div class="hero-section__media">
+          <img src="./images/header-course.png" alt="Programmer learning" />
+        </div>
+      </div>
+
+      <svg
+        class="hero-section__wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 180"
+        preserveAspectRatio="none"
+      >
+        <path
+          fill="#ffffff"
+          d="M0,128L48,138.7C96,149,192,171,288,170.7C384,171,480,149,576,138.7C672,128,768,128,864,133.3C960,139,1056,149,1152,154.7C1248,160,1344,160,1392,160L1440,160L1440,180L1392,180C1344,180,1248,180,1152,180C1056,180,960,180,864,180C768,180,672,180,576,180C480,180,384,180,288,180C192,180,96,180,48,180L0,180Z"
+        ></path>
+      </svg>
+    </header>
+
+    <section class="stats-strip">
+      <div class="wrapper stats-strip__grid">
+        <div><h3>20+</h3><p>Learning Tracks</p></div>
+        <div><h3>50+</h3><p>Practical Lessons</p></div>
+        <div><h3>100+</h3><p>Code Examples</p></div>
+        <div><h3>Projects</h3><p>Real Practice</p></div>
+      </div>
+    </section>
+
+    <section class="section-space" id="languages">
+      <div class="wrapper">
+        <div class="section-intro">
+          <h2>Programming Languages You Will Learn</h2>
+          <div class="section-intro__line"></div>
+          <p>
+            Learn the most important technologies for web development and modern
+            programming.
+          </p>
+        </div>
+
+        <div class="language-grid">
+          <article class="language-card" id="html">
+            <div class="language-card__icon"><i class="fa-brands fa-html5"></i></div>
+            <h3>HTML</h3>
+            <p>Build the structure of web pages using semantic and clean markup.</p>
+          </article>
+
+          <article class="language-card" id="css">
+            <div class="language-card__icon"><i class="fa-brands fa-css3-alt"></i></div>
+            <h3>CSS</h3>
+            <p>Create responsive layouts, modern styling, and visual polish.</p>
+          </article>
+
+          <article class="language-card" id="javascript">
+            <div class="language-card__icon"><i class="fa-brands fa-js"></i></div>
+            <h3>JavaScript</h3>
+            <p>Add logic, interactivity, events, and DOM manipulation.</p>
+          </article>
+
+          <article class="language-card" id="react">
+            <div class="language-card__icon"><i class="fa-brands fa-react"></i></div>
+            <h3>React</h3>
+            <p>Build reusable UI components and modern frontend applications.</p>
+          </article>
+
+          <article class="language-card" id="python">
+            <div class="language-card__icon"><i class="fa-brands fa-python"></i></div>
+            <h3>Python</h3>
+            <p>Start automation, scripting, and backend fundamentals easily.</p>
+          </article>
+
+          <article class="language-card" id="nodejs">
+            <div class="language-card__icon"><i class="fa-brands fa-node-js"></i></div>
+            <h3>Node.js</h3>
+            <p>Use JavaScript on the server to build APIs and backend apps.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space roadmap-section" id="roadmap">
+      <div class="wrapper">
+        <div class="section-intro">
+          <h2>Programming Roadmap</h2>
+          <div class="section-intro__line"></div>
+          <p>Follow this roadmap step by step to become a solid frontend developer.</p>
+        </div>
+
+        <div class="roadmap-grid">
+          <div class="roadmap-step">
+            <span>01</span>
+            <h3>HTML Basics</h3>
+            <p>Tags, forms, media, semantic layout, and page structure.</p>
+          </div>
+          <div class="roadmap-step">
+            <span>02</span>
+            <h3>CSS Fundamentals</h3>
+            <p>Selectors, colors, spacing, flexbox, grid, and responsive design.</p>
+          </div>
+          <div class="roadmap-step">
+            <span>03</span>
+            <h3>JavaScript Essentials</h3>
+            <p>Variables, loops, arrays, objects, functions, DOM, and events.</p>
+          </div>
+          <div class="roadmap-step">
+            <span>04</span>
+            <h3>Projects</h3>
+            <p>Build landing pages, calculators, to-do apps, and portfolios.</p>
+          </div>
+          <div class="roadmap-step">
+            <span>05</span>
+            <h3>React</h3>
+            <p>Components, props, state, hooks, and routing basics.</p>
+          </div>
+          <div class="roadmap-step">
+            <span>06</span>
+            <h3>Backend Intro</h3>
+            <p>Node.js, APIs, JSON, forms, and simple server-side workflows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space" id="code-examples">
+      <div class="wrapper">
+        <div class="section-intro">
+          <h2>Code Examples</h2>
+          <div class="section-intro__line"></div>
+          <p>Beginner-friendly snippets to help you understand faster.</p>
+        </div>
+
+        <div class="code-grid">
+          <div class="code-card">
+            <h3>HTML Example</h3>
+<pre><code>&lt;section&gt;
+  &lt;h1&gt;Welcome to Skillora&lt;/h1&gt;
+  &lt;p&gt;Learn programming step by step.&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+          </div>
+
+          <div class="code-card">
+            <h3>CSS Example</h3>
+<pre><code>.card {
+  padding: 20px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}</code></pre>
+          </div>
+
+          <div class="code-card">
+            <h3>JavaScript Example</h3>
+<pre><code>const btn = document.querySelector(".btn");
+
+btn.addEventListener("click", function () {
+  alert("Welcome to Skillora!");
+});</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space newsletter-section">
+      <div class="wrapper newsletter-section__layout">
+        <h2>Subscribe For New Coding Lessons</h2>
+        <p>Get updates about new lessons, courses, and practice projects.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit" class="primary-btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="wrapper site-footer__layout">
+        <ul class="site-footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="frontend-track.html">Frontend Track</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p>&copy; 2025 Skillora. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.waves.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

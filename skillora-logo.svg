@@ -1,0 +1,26 @@
+<svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skilloraMark" x1="8" y1="8" x2="48" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(6 8)">
+    <path d="M10 28L22 8L30 20L22 20L17 28H10Z" fill="url(#skilloraMark)"/>
+    <path d="M24 28L36 8L48 28H24Z" fill="#60A5FA" opacity="0.95"/>
+    <path d="M18 31H43" stroke="#93C5FD" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <text
+    x="70"
+    y="38"
+    fill="#F8FAFC"
+    font-family="Poppins, Arial, sans-serif"
+    font-size="28"
+    font-weight="700"
+    letter-spacing="0.2"
+  >
+    Skillora
+  </text>
+</svg>
